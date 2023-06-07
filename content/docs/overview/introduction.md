@@ -24,4 +24,4 @@ You can get the latest version of Dahlia Studio from [itch.io](https://ansh3ll.i
 
 ## Changelog
 
-Find out what's new in Dahlia Studio. [Changelog →](../../help/changelog/)
+Find out what's changed in Dahlia Studio. [Changelog →](../../help/changelog/)

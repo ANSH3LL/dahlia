@@ -1,10 +1,10 @@
 +++
 title = "Changelog"
-description = "Find out what's new in Dahlia Studio."
+description = "Find out what's changed in Dahlia Studio."
 date = 2023-05-22T08:08:00+00:00
 updated = 2023-05-30T08:08:00+00:00
 draft = false
-weight = 30
+weight = 20
 sort_by = "weight"
 template = "docs/page.html"
 
