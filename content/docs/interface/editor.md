@@ -18,7 +18,7 @@ Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/comp
 
 ## Editor components
 
-<img src="/images/editor.png" width="100%"/>
+{{ image(name="editor.png") }}
 
 <hr style="margin-top:30px;margin-bottom:25px;" />
 

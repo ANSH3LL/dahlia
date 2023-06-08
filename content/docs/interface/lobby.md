@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-<img src="/images/lobby.jpg" width="100%"/>
+{{ image(name="lobby.jpg") }}
 
 ### Creating a new project
 
@@ -31,7 +31,7 @@ Therefore, the following should be kept in mind:
 - A project with <b>landscape</b> orientation should have a width that is larger than its height, such as <code>640x360</code>.
 </blockquote>
 
-<img src="/images/newproject.jpg" width="100%"/>
+{{ image(name="newproject.jpg") }}
 
 ### Content scaling
 
