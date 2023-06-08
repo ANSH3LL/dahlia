@@ -1,1 +1,2 @@
-<img src="/images/{{ name }}" width="100%"/>
+{% set url = get_url(path='images', trailing_slash=false) %}
+<img src="{{ url | safe }}/{{ name }}" width="100%" />
