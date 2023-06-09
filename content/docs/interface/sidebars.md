@@ -1,6 +1,6 @@
 +++
-title = "Project sidebar tabs"
-description = "Dahlia Studio project sidebar tabs."
+title = "Editor sidebar tabs"
+description = "Dahlia Studio editor sidebar tabs."
 date = 2023-05-22T08:08:00+00:00
 updated = 2023-05-30T08:08:00+00:00
 draft = false

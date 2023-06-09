@@ -49,3 +49,17 @@ Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/comp
 **13. Zoom percentage** &mdash; The extent by which you have zoomed in/out is displayed here. You can also use the + and &ndash; buttons to zoom in or out.
 
 ## Viewport navigation
+
+You can pan, scroll and zoom the viewport using your mouse and keyboard.
+
+### Panning
+
+Click on any part of the viewport and drag your mouse around.
+
+### Scrolling
+
+Use your `mouse wheel` to scroll up and down in the viewport. To scroll horizontally, hold the `Shift` key while scrolling.
+
+### Zooming in and out
+
+Hold the `Ctrl` key on your keyboard and use the `mouse wheel` to scroll up and down to zoom in and out.
