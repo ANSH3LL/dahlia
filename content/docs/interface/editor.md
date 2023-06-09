@@ -44,7 +44,7 @@ Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/comp
 
 **11. Center guides** &mdash; These lines represent the horizontal and vertical center points of your project when displayed on a screen.
 
-**12. Cursor coordinates** &mdash; The position of your cursor relative the scene is displayed here.
+**12. Cursor coordinates** &mdash; The position of your cursor relative to the scene is displayed here.
 
 **13. Zoom percentage** &mdash; The extent by which you have zoomed in/out is displayed here. You can also use the + and &ndash; buttons to zoom in or out.
 
