@@ -14,7 +14,13 @@ toc = true
 top = false
 +++
 
-Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/composer" target="_blank">composer</a> by default to manage the scenes in your project. However, you can switch to a scene manager of your choice by editing your project's `scene scripts` if composer doesn't meet your project's needs. You could also edit the scene script template found at `Dahlia Studio/Resources/assets/stubs/scene.txt` for a more permanent effect.
+<hr>
+
+Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/composer" target="_blank">composer</a> by default to manage the scenes in your project.
+
+You can switch to a scene manager of your choice by editing your project's scene scripts if composer doesn't meet your project's needs.
+
+You can also edit the scene script template found at `Dahlia Studio/Resources/assets/stubs/scene.txt` for a more permanent effect.
 
 ## Editor components
 
@@ -22,9 +28,9 @@ Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/comp
 
 <hr style="margin-top:30px;margin-bottom:25px;" />
 
-**1. Toggle** `library` **sidebar** &mdash; Clicking this button will show the library sidebar if it was closed.
+**1. Show** `library` **sidebar** &mdash; Clicking this button will show the library sidebar if it was closed.
 
-**2. Toggle** `content` **sidebar** &mdash; Clicking this button will show the content sidebar if it was closed.
+**2. Show** `content` **sidebar** &mdash; Clicking this button will show the content sidebar if it was closed.
 
 **3. Finish line plot** &mdash; This button only works when drawing a line shape. Click it when you're done drawing to create a line object.
 
@@ -32,7 +38,7 @@ Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/comp
 
 **5. Save current scene** &mdash; Clicking this button will save the current scene to disk.
 
-**6. Export project** &mdash; Clicking this button will export the project. An exported project can be built or run in the simulator like any other solar2D project.
+**6. Export project** &mdash; Clicking this button will export the project. An exported project can be built or run in the simulator like any other solar2d project.
 
 **7. Editor sidebar** &mdash; Sidebars contain tabs where you can interact with various contents of your project. There are 2 sidebars in the project editor, *library* and *content*.
 
@@ -62,4 +68,4 @@ Use your `mouse wheel` to scroll up and down in the viewport. To scroll horizont
 
 ### Zooming in and out
 
-Hold the `Ctrl` key on your keyboard and use the `mouse wheel` to scroll up and down to zoom in and out.
+Hold the `Ctrl` key on your keyboard and scroll the `mouse wheel` up and down to zoom in and out.

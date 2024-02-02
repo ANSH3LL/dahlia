@@ -16,7 +16,9 @@ top = false
 
 ## Installation
 
-You need to have the [Solar2D simulator](https://github.com/coronalabs/corona/releases) installed before you can run or build projects made in dahlia.
+You need to install solar2d before you can run or build game projects made with dahlia. However, you do not need to have the engine installed to open or edit these projects.
+
+You can get the latest version of Solar2D from [github](https://github.com/coronalabs/corona/releases).
 
 You can get the latest version of Dahlia Studio from [itch.io](https://ansh3ll.itch.io/dahlia). Download and uncompress the zip file and run `Dahlia Studio.exe`
 
@@ -24,4 +26,4 @@ You can get the latest version of Dahlia Studio from [itch.io](https://ansh3ll.i
 
 ## Changelog
 
-Find out what's changed in Dahlia Studio. [Changelog →](../../help/changelog/)
+Find out what's new in Dahlia Studio. [Changelog →](../../help/changelog/)
