@@ -71,7 +71,7 @@ url = "https://mastodon.gamedev.place/@ansh3ll"
 
 # Footer contents
 [extra.footer]
-info = 'Powered by <a href="https://www.getzola.org/">Zola</a> and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>. Homepage Icons by <a href="https://www.flaticon.com/">FlatIcon</a>, <a href="https://www.flaticon.com/packs/friendship-18">Friendship pack</a>'
+info = 'Powered by <a href="https://www.getzola.org/">Zola</a> and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>. Homepage Icons by <a href="https://icons8.com/">Icons8</a>'
 
 [[extra.footer.nav]]
 name = "Changelog"

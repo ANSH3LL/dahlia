@@ -1,29 +1,25 @@
 +++
 title = "Introduction"
-description = "Dahlia Studio is a visual editor for the Solar2D game engine."
+description = "An Introduction to Dahlia Studio."
 date = 2023-05-22T08:08:00+00:00
-updated = 2023-05-30T08:08:00+00:00
+updated = 2024-03-12T08:08:00+00:00
 draft = false
 weight = 10
 sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = 'Dahlia Studio is a visual editor for the <a href="https://solar2d.com/">Solar2D</a> game engine. It is designed to simplify and speed up the process of developing 2D games for both beginners and advanced developers.'
+lead = ''
 toc = true
 top = false
 +++
 
-## Installation
+Dahlia studio is an editor for the <a href="https://solar2d.com/">Solar2D</a> game engine. In addition to letting you design and create your game's levels, UI and resources without writing code, it also provides access to multiple unique features that are not present in solar2d.
 
-You need to install solar2d before you can run or build game projects made with dahlia. However, you do not need to have the engine installed to open or edit these projects.
+Traditionally, making games with solar2d meant using different third-party tools to create every graphical effect and asset that your game needs, unlike other engines, which allow you to create most of these in the engine's own editor.
 
-You can get the latest version of Solar2D from [github](https://github.com/coronalabs/corona/releases).
+Dahlia studio changes this by drastically reducing the number of third-party tools you'll need to interact with when making your game.
 
-You can get the latest version of Dahlia Studio from [itch.io](https://ansh3ll.itch.io/dahlia). Download and uncompress the zip file and run `Dahlia Studio.exe`
+Dahlia studio includes a particle editor, sprite animation editor, scene editor, object property inspector, and more. We're constantly working to add more features to dahlia as well as improve existing ones.
 
-<iframe src="https://itch.io/embed/1732548" width="552" height="167" frameborder="0"><a href="https://ansh3ll.itch.io/dahlia">Dahlia Studio by Ansh3ll</a></iframe>
-
-## Changelog
-
-Find out what's new in Dahlia Studio. [Changelog →](../../help/changelog/)
+An added advantage of using dahlia is that anything you create is sure to look and feel exactly as you intended, as the editor itself is made with solar2d.

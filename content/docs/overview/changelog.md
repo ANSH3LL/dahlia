@@ -4,7 +4,7 @@ description = "Find out what's new in Dahlia Studio."
 date = 2023-05-22T08:08:00+00:00
 updated = 2023-05-30T08:08:00+00:00
 draft = false
-weight = 20
+weight = 30
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-### v0.3.0 (Beta 3)
+### 0.3.0 (Beta 3)
 - Added 2 new objects: animated sprite and particle emitter
 - Added 2 new resources: animation flipbook and particle blueprint
 - Added particle editor

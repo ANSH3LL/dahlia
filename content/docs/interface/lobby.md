@@ -31,7 +31,7 @@ Therefore, the following should be kept in mind:
 - A project with <b>landscape</b> orientation should have a width that is larger than its height, such as <code>640x360</code>.
 </blockquote>
 
-{{ image(name="newproject.jpg") }}
+{{ image(name="new-project.jpg") }}
 
 ### Content scaling
 
