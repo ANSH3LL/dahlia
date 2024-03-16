@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height:100%;">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://ansh3ll.github.io/dahlia/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://ansh3ll.github.io/dahlia/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://ansh3ll.github.io/dahlia/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Project editor | Dahlia Studio</title>
+<meta name="description" content="Dahlia Studio project editor screen.">
+<link rel="canonical" href="https://ansh3ll.github.io/dahlia/docs/interface/editor/">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  
+    <meta name="twitter:image" content="https://ansh3ll.github.io/dahlia/dahlia-banner.png">
+  
+  <meta name="twitter:title" content="Project editor">
+  <meta name="twitter:description" content="Dahlia Studio project editor screen.">
+  <meta name="twitter:site" content="@ansh3ll">
+  <meta name="twitter:creator" content="@ansh3ll">
+
+  <meta property="og:title" content="Project editor">
+  <meta property="og:description" content="Dahlia Studio project editor screen.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ansh3ll.github.io/dahlia/docs/interface/editor/">
+
+  
+    <meta property="og:image" content="https://ansh3ll.github.io/dahlia/dahlia-banner.png">
+  
+
+  <meta property="og:updated_time" content="2023-05-30T08:08:00+00:00">
+  <meta property="og:site_name" content="Project editor">
+
+  
+
+  
+
+  
+  <meta property="article:publisher" content="https://www.facebook.com/ansh3ll">
+  <meta property="article:author" content="https://www.facebook.com/ansh3ll">
+  <meta property="og:locale" content="en_US">
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        
+        
+          
+          
+          
+          
+          
+          
+          
+          
+            {
+              "@type": "ListItem",
+              "position":  1 ,
+              "name": "Home",
+              "item": "https://ansh3ll.github.io/dahlia/"
+            },
+            
+            
+            {
+              "@type": "ListItem",
+              "position":  2 ,
+              "name": "Docs",
+              "item": "https://ansh3ll.github.io/dahlia/docs/"
+            },
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            {
+              "@type": "ListItem",
+              "position":  3 ,
+              "name": "Interface",
+              "item": "https://ansh3ll.github.io/dahlia/docs/interface/"
+            },
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            {
+              "@type": "ListItem",
+              "position":  4 ,
+              "name": "Editor",
+              "item": "https://ansh3ll.github.io/dahlia/docs/interface/editor/"
+            },
+          
+        
+      
+
+      
+      
+      []
+    ]
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://ansh3ll.github.io/dahlia/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://ansh3ll.github.io/dahlia/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://ansh3ll.github.io/dahlia/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://ansh3ll.github.io/dahlia/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single" style="height:100%;">
+  <div style="min-height:90%;">
+    
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+        <a href="https://ansh3ll.github.io/dahlia"><img style="margin-right:7px; margin-top:-4px;" src="https://ansh3ll.github.io/dahlia/dahlia-small.png"/></a>
+		<a class="navbar-brand order-1 order-md-0 me-auto" style="margin-top:-2px;" href="https://ansh3ll.github.io/dahlia">Dahlia Studio</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://mastodon.gamedev.place/@ansh3ll"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Mastodon</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item docs active">
+							<a class="nav-link" href="https://ansh3ll.github.io/dahlia/docs/overview/getting-started/">Learn</a>
+						</li>
+					
+				
+                <li class="nav-item">
+					<a class="nav-link" href="https://ansh3ll.itch.io/dahlia" target="_blank">
+                        Download <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link" style="margin-left:-2px;margin-top:-4px;"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+				</li>
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+    
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+							<h3>Overview</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/overview/introduction/">Introduction</a></li>
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/overview/getting-started/">Getting Started</a></li>
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/overview/changelog/">Changelog</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>User Interface</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/interface/lobby/">Start-up screen</a></li>
+							                           
+									<li><a class="docs-link active" href="https://ansh3ll.github.io/dahlia/docs/interface/editor/">Project editor</a></li>
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/interface/sidebars/">Editor sidebar tabs</a></li>
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/interface/sprite/">Sprite animation editor</a></li>
+							                           
+									<li><a class="docs-link" href="https://ansh3ll.github.io/dahlia/docs/interface/particle/">Particle editor</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+            
+  			<h3>On this page</h3>
+            
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://ansh3ll.github.io/dahlia/docs/interface/editor/#editor-components">Editor components</a></li>
+  							
+  							
+  							<li><a href="https://ansh3ll.github.io/dahlia/docs/interface/editor/#viewport-navigation">Viewport navigation</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://ansh3ll.github.io/dahlia/docs/interface/editor/#panning">Panning</a></li>
+  											
+  											<li><a href="https://ansh3ll.github.io/dahlia/docs/interface/editor/#scrolling">Scrolling</a></li>
+  											
+  											<li><a href="https://ansh3ll.github.io/dahlia/docs/interface/editor/#zooming-in-and-out">Zooming in and out</a></li>
+  											
+  									</ul>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Project editor</h1>
+        <p class="lead">This is where you'll spend the most time in dahlia. Here, you can create and edit the scenes/levels that make up your project.</p>
+        <hr>
+<p>Dahlia studio makes use of <a href="https://docs.coronalabs.com/api/library/composer" target="_blank">composer</a> by default to manage the scenes in your project.</p>
+<p>You can switch to a scene manager of your choice by editing your project's scene scripts if composer doesn't meet your project's needs.</p>
+<p>You can also edit the scene script template found at <code>Dahlia Studio/Resources/assets/stubs/scene.txt</code> for a more permanent effect.</p>
+<h2 id="editor-components">Editor components</h2>
+
+<img src="https://ansh3ll.github.io/dahlia/images/editor.png" width="100%" /><hr style="margin-top:30px;margin-bottom:25px;" />
+<p><strong>1. Show</strong> <code>library</code> <strong>sidebar</strong> — Clicking this button will show the library sidebar if it was closed.</p>
+<p><strong>2. Show</strong> <code>content</code> <strong>sidebar</strong> — Clicking this button will show the content sidebar if it was closed.</p>
+<p><strong>3. Finish line plot</strong> — This button only works when drawing a line shape. Click it when you're done drawing to create a line object.</p>
+<p><strong>4. Cancel drawing</strong> — This button only works when drawing a line/polygon or placing an object on the scene. Click it to cancel drawing or object creation.</p>
+<p><strong>5. Save current scene</strong> — Clicking this button will save the current scene to disk.</p>
+<p><strong>6. Export project</strong> — Clicking this button will export the project. An exported project can be built or run in the simulator like any other solar2d project.</p>
+<p><strong>7. Editor sidebar</strong> — Sidebars contain tabs where you can interact with various contents of your project. There are 2 sidebars in the project editor, <em>library</em> and <em>content</em>.</p>
+<p><strong>8. Scenes list</strong> — This is where all scenes your project contains are shown. You can click on any entry in the list to view its corresponding scene. You can also delete a scene by clicking the ✕ button.</p>
+<p><strong>9. Scene viewport</strong> — This is where your scene's contents are displayed. Objects in your game will appear as they do in the viewport.</p>
+<p><strong>10. Content size bounding box</strong> — This rectangle represents your project's content size and orientation.</p>
+<p><strong>11. Center guides</strong> — These lines represent the horizontal and vertical center points of your project when displayed on a screen.</p>
+<p><strong>12. Cursor coordinates</strong> — The position of your cursor relative to the scene is displayed here.</p>
+<p><strong>13. Zoom percentage</strong> — The extent by which you have zoomed in/out is displayed here. You can also use the + and – buttons to zoom in or out.</p>
+<h2 id="viewport-navigation">Viewport navigation</h2>
+<p>You can pan, scroll and zoom the viewport using your mouse and keyboard.</p>
+<h3 id="panning">Panning</h3>
+<p>Click on any part of the viewport and drag your mouse around.</p>
+<h3 id="scrolling">Scrolling</h3>
+<p>Use your <code>mouse wheel</code> to scroll up and down in the viewport. To scroll horizontally, hold the <code>Shift</code> key while scrolling.</p>
+<h3 id="zooming-in-and-out">Zooming in and out</h3>
+<p>Hold the <code>Ctrl</code> key on your keyboard and scroll the <code>mouse wheel</code> up and down to zoom in and out.</p>
+
+        
+          
+<p class="edit-page"><a href="https:&#x2F;&#x2F;github.com&#x2F;ansh3ll&#x2F;dahlia/blob/main/content&#x2F;docs&#x2F;interface&#x2F;editor.md"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>Edit this page on GitHub</a></p>
+
+        
+        
+      </main>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a> and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>. Homepage Icons by <a href="https://icons8.com/">Icons8</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+						
+							
+                                <li class="list-inline-item"><a href="https://ansh3ll.github.io/dahlia/docs/overview/changelog/">Changelog</a></li>
+                            
+						
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://ansh3ll.github.io/dahlia/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://ansh3ll.github.io/dahlia/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://ansh3ll.github.io/dahlia/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://ansh3ll.github.io/dahlia/js/search.js" defer></script>
+
+  
+</body>
+</html>
